@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html,
+body{
+    height: 100%;
+    width:100%;
+    background-color: black;
+}
+
+.page1{
+    height: 100%;
+    width:100%;
+    background-color: rgb(218, 88, 88);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.page1 h1 {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background-color: aquamarine;
+    display: inline-block;
+    z-index: 1;
+  
+}
+.page1 p {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(255, 0, 51);
+    display: inline-block;
+    z-index: 1;
+}
+
+.page2{
+    height:100%;
+    width:100%;
+    background-color: rgb(96, 204, 96);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.page2 h1 {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background-color: aquamarine;
+    display: inline-block;
+    z-index: 1;
+}
+.page2 p {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(255, 0, 51);
+    display: inline-block;
+    z-index: 1;
+}
+
+
+.page3{
+    height:100%;
+    width:100%;
+    background-color: rgb(103, 103, 203);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.page3 h1 {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background-color: aquamarine;
+    display: inline-block;
+    z-index: 1;
+  
+}
+.page3 p {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(255, 0, 51);
+     display: inline-block;
+     z-index: 1;
+}
